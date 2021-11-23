@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "types": ["jest"],
+      "lib": ["es6", "dom", "esnext.asynciterable"],
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]}
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts"]
+  }
